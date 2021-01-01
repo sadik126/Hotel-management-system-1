@@ -1,0 +1,20 @@
+C:\Users\sadik\source\repos\Hotel management system\bin\Debug\Hotel management system.exe.config
+C:\Users\sadik\source\repos\Hotel management system\bin\Debug\Hotel management system.exe
+C:\Users\sadik\source\repos\Hotel management system\bin\Debug\Hotel management system.pdb
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel management system.csprojAssemblyReference.cache
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.login.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.Properties.Resources.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel management system.csproj.GenerateResource.cache
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel management system.csproj.CoreCompileInputs.cache
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel management system.exe
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel management system.pdb
+C:\Users\sadik\source\repos\Hotel management system\bin\Debug\Guna.UI2.dll
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.Homepage.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel management system.csproj.CopyComplete
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.add_room.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.details.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.regestration.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.signup.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.employee.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.employee_details.resources
+C:\Users\sadik\source\repos\Hotel management system\obj\Debug\Hotel_management_system.view_image.resources
