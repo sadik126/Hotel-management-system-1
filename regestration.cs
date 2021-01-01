@@ -73,7 +73,7 @@ namespace Hotel_management_system
                 }
                 else
                 {
-                    MessageBox.Show("there is an error.");
+                    MessageBox.Show("there is an error.please fill up the valid data");
                 }
 
             }
@@ -94,7 +94,8 @@ namespace Hotel_management_system
             comboBox1.Text = "";
             address.Text = "";
             roomno.Text = "";
-
+            radioButton1.Text = "";
+            radioButton2.Text = "";
             dateTimePicker1.Text = "";
         }
 
@@ -117,10 +118,15 @@ namespace Hotel_management_system
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
             char ch = e.KeyChar;
-            if(!char.IsControl(ch)&&!char.IsLetter(ch))
+            if(!char.IsControl(ch)&&!char.IsLetter(ch)&&ch!=32)
             {
                 e.Handled = true;
             }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

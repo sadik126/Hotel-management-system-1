@@ -15,6 +15,10 @@ namespace Hotel_management_system
 {
     public partial class employee : Form
     {
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hotel7star"].ConnectionString);
+        SqlCommand cmd;
+        SqlDataAdapter adpt;
+        DataTable dt;
         public employee()
         {
             InitializeComponent();
@@ -30,7 +34,10 @@ namespace Hotel_management_system
         private void save_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hotel7star"].ConnectionString);
-
+            
+            DataTable dt = new DataTable();
+            
+            Regex r = new Regex(@"^[0-9]{11}$");
             con.Open();
             string gen = null;
             if (radioButton1.Checked)
@@ -44,17 +51,19 @@ namespace Hotel_management_system
             string sql = "INSERT INTO employees (name,email,phone,status,address,gender,birthdate) VALUES('" + textBox2.Text + "','" + textBox1.Text + "','" + phone.Text + "','" + comboBox1.Text + "','" + address.Text + "','" + gen + "','" + dateTimePicker1.Text + "')";
             SqlCommand command = new SqlCommand(sql, con);
             int result = command.ExecuteNonQuery();
-            Regex r = new Regex(@"^[0-9]{11}$");
+            
 
 
 
-            if (result > 0 && r.IsMatch(phone.Text))
+            if (result == 1 && r.IsMatch(phone.Text))
             {
                 MessageBox.Show("Employee added successfully.");
+                this.cleardata();
+                con.Close();
             }
             else
             {
-                MessageBox.Show("there is an error.");
+                MessageBox.Show("there is an error.please fill up the valid data");
             }
 
         }
@@ -62,6 +71,17 @@ namespace Hotel_management_system
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+        public void cleardata()
+        {
+            textBox2.Text = "";
+            textBox1.Text = "";
+            phone.Text = "";
+            comboBox1.Text = "";
+            address.Text = "";
+            
+            
+            dateTimePicker1.Text = "";
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
