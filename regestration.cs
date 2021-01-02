@@ -94,8 +94,8 @@ namespace Hotel_management_system
             comboBox1.Text = "";
             address.Text = "";
             roomno.Text = "";
-            radioButton1.Text = "";
-            radioButton2.Text = "";
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
             dateTimePicker1.Text = "";
         }
 
