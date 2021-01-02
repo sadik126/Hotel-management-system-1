@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Hotel_management_system
 {
-    class userdataaccess
+    class Userdataaccess
     {
         Dataaccess dataAccess;
-        public userdataaccess()
+        public Userdataaccess()
         {
             this.dataAccess = new Dataaccess();
         }

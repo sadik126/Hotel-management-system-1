@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel_management_system
 {
-    class users
+    class Users
     {
        
      
