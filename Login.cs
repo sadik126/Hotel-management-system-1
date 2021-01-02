@@ -25,7 +25,7 @@ namespace Hotel_management_system
             }
             else
             {
-                userservice userService = new userservice();
+                Userservice userService = new Userservice();
                 bool result = userService.LoginValidation(txtusername.Text, password.Text);
                 if (result)
                 {
