@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Hotel_management_system
 {
-    class userservice
+    class Userservice
     {
-        userdataaccess userDataAccess;
-        public userservice()
+        Userdataaccess userDataAccess;
+        public Userservice()
         {
-            this.userDataAccess = new userdataaccess();
+            this.userDataAccess = new Userdataaccess();
         }
         public bool LoginValidation(string username, string password)
         {

@@ -104,9 +104,9 @@
     <Compile Include="Signup.Designer.cs">
       <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
-    <Compile Include="users\userdataaccess.cs" />
-    <Compile Include="users\users.cs" />
-    <Compile Include="users\userservice.cs" />
+    <Compile Include="users\Userdataaccess.cs" />
+    <Compile Include="users\Users.cs" />
+    <Compile Include="users\Userservice.cs" />
     <Compile Include="View image.cs">
       <SubType>Form</SubType>
     </Compile>
