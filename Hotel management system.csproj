@@ -66,17 +66,17 @@
     <Compile Include="details.Designer.cs">
       <DependentUpon>details.cs</DependentUpon>
     </Compile>
-    <Compile Include="employee details.cs">
+    <Compile Include="Employee details.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="employee details.Designer.cs">
-      <DependentUpon>employee details.cs</DependentUpon>
+    <Compile Include="Employee details.Designer.cs">
+      <DependentUpon>Employee details.cs</DependentUpon>
     </Compile>
-    <Compile Include="employee.cs">
+    <Compile Include="Employee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="employee.Designer.cs">
-      <DependentUpon>employee.cs</DependentUpon>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -119,11 +119,11 @@
     <EmbeddedResource Include="details.resx">
       <DependentUpon>details.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="employee details.resx">
-      <DependentUpon>employee details.cs</DependentUpon>
+    <EmbeddedResource Include="Employee details.resx">
+      <DependentUpon>Employee details.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="employee.resx">
-      <DependentUpon>employee.cs</DependentUpon>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>

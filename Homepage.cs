@@ -52,7 +52,7 @@ namespace Hotel_management_system
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            employee emp = new employee();
+            Employee emp = new Employee();
             emp.Show();
             this.Hide();
         }

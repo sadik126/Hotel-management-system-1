@@ -13,13 +13,13 @@ using System.Windows.Forms;
 
 namespace Hotel_management_system
 {
-    public partial class employee : Form
+    public partial class Employee : Form
     {
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hotel7star"].ConnectionString);
         SqlCommand cmd;
         SqlDataAdapter adpt;
         DataTable dt;
-        public employee()
+        public Employee()
         {
             InitializeComponent();
         }
@@ -97,7 +97,7 @@ namespace Hotel_management_system
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
             char ch = e.KeyChar;
-            if (!char.IsControl(ch) && !char.IsLetter(ch))
+            if (!char.IsControl(ch) && !char.IsLetter(ch)&&ch!=32)
             {
                 e.Handled = true;
             }

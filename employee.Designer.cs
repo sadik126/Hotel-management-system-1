@@ -1,6 +1,6 @@
 ﻿namespace Hotel_management_system
 {
-    partial class employee
+    partial class Employee
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(employee));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employee));
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.email = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.Label();
@@ -56,6 +56,8 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.save = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Button2
@@ -80,7 +82,7 @@
             this.email.AutoSize = true;
             this.email.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.email.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email.Location = new System.Drawing.Point(497, 132);
+            this.email.Location = new System.Drawing.Point(79, 90);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(51, 18);
             this.email.TabIndex = 82;
@@ -90,7 +92,7 @@
             // 
             this.name.AutoSize = true;
             this.name.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(497, 62);
+            this.name.Location = new System.Drawing.Point(76, 24);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(54, 18);
             this.name.TabIndex = 81;
@@ -100,7 +102,7 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(571, 111);
+            this.textBox1.Location = new System.Drawing.Point(150, 80);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(234, 36);
@@ -110,7 +112,7 @@
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(571, 45);
+            this.textBox2.Location = new System.Drawing.Point(150, 14);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(234, 32);
@@ -121,14 +123,14 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Teal;
-            this.panel1.Location = new System.Drawing.Point(569, 149);
+            this.panel1.Location = new System.Drawing.Point(148, 118);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(236, 1);
             this.panel1.TabIndex = 78;
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(531, 142);
+            this.panel2.Location = new System.Drawing.Point(110, 111);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 1);
             this.panel2.TabIndex = 77;
@@ -136,14 +138,14 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Teal;
-            this.panel3.Location = new System.Drawing.Point(569, 79);
+            this.panel3.Location = new System.Drawing.Point(148, 48);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(236, 1);
             this.panel3.TabIndex = 76;
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(529, 72);
+            this.panel4.Location = new System.Drawing.Point(108, 41);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 1);
             this.panel4.TabIndex = 75;
@@ -152,7 +154,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(482, 450);
+            this.label8.Location = new System.Drawing.Point(61, 419);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(83, 18);
             this.label8.TabIndex = 74;
@@ -160,7 +162,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(571, 448);
+            this.dateTimePicker1.Location = new System.Drawing.Point(150, 417);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 73;
@@ -168,7 +170,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(640, 403);
+            this.radioButton2.Location = new System.Drawing.Point(219, 372);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(59, 17);
             this.radioButton2.TabIndex = 72;
@@ -179,7 +181,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(585, 403);
+            this.radioButton1.Location = new System.Drawing.Point(164, 372);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(48, 17);
             this.radioButton1.TabIndex = 71;
@@ -191,7 +193,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(497, 402);
+            this.label7.Location = new System.Drawing.Point(76, 371);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 18);
             this.label7.TabIndex = 70;
@@ -208,7 +210,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(451, 339);
+            this.label5.Location = new System.Drawing.Point(30, 308);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(116, 18);
             this.label5.TabIndex = 65;
@@ -222,7 +224,7 @@
             "married",
             "widowed",
             "divorced"});
-            this.comboBox1.Location = new System.Drawing.Point(571, 336);
+            this.comboBox1.Location = new System.Drawing.Point(150, 305);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(236, 21);
             this.comboBox1.TabIndex = 64;
@@ -231,7 +233,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(492, 260);
+            this.label3.Location = new System.Drawing.Point(61, 218);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 18);
             this.label3.TabIndex = 63;
@@ -242,7 +244,7 @@
             this.label4.AutoSize = true;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(487, 187);
+            this.label4.Location = new System.Drawing.Point(61, 148);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 18);
             this.label4.TabIndex = 62;
@@ -252,7 +254,7 @@
             // 
             this.address.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.address.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.address.Location = new System.Drawing.Point(573, 239);
+            this.address.Location = new System.Drawing.Point(152, 208);
             this.address.Multiline = true;
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(234, 36);
@@ -262,7 +264,7 @@
             // 
             this.phone.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phone.Location = new System.Drawing.Point(573, 173);
+            this.phone.Location = new System.Drawing.Point(152, 142);
             this.phone.Multiline = true;
             this.phone.Name = "phone";
             this.phone.Size = new System.Drawing.Size(234, 32);
@@ -272,14 +274,14 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Teal;
-            this.panel5.Location = new System.Drawing.Point(571, 277);
+            this.panel5.Location = new System.Drawing.Point(150, 246);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(236, 1);
             this.panel5.TabIndex = 59;
             // 
             // panel6
             // 
-            this.panel6.Location = new System.Drawing.Point(533, 270);
+            this.panel6.Location = new System.Drawing.Point(112, 239);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 1);
             this.panel6.TabIndex = 58;
@@ -287,14 +289,14 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Teal;
-            this.panel7.Location = new System.Drawing.Point(571, 207);
+            this.panel7.Location = new System.Drawing.Point(150, 176);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(236, 1);
             this.panel7.TabIndex = 57;
             // 
             // panel8
             // 
-            this.panel8.Location = new System.Drawing.Point(531, 200);
+            this.panel8.Location = new System.Drawing.Point(110, 169);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(200, 1);
             this.panel8.TabIndex = 56;
@@ -326,43 +328,53 @@
             this.label1.TabIndex = 84;
             this.label1.Text = "WELCOME TO REGESTRATION";
             // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.name);
+            this.panel9.Controls.Add(this.panel8);
+            this.panel9.Controls.Add(this.panel7);
+            this.panel9.Controls.Add(this.email);
+            this.panel9.Controls.Add(this.panel6);
+            this.panel9.Controls.Add(this.panel5);
+            this.panel9.Controls.Add(this.textBox1);
+            this.panel9.Controls.Add(this.phone);
+            this.panel9.Controls.Add(this.textBox2);
+            this.panel9.Controls.Add(this.address);
+            this.panel9.Controls.Add(this.panel1);
+            this.panel9.Controls.Add(this.label4);
+            this.panel9.Controls.Add(this.panel2);
+            this.panel9.Controls.Add(this.label3);
+            this.panel9.Controls.Add(this.panel3);
+            this.panel9.Controls.Add(this.comboBox1);
+            this.panel9.Controls.Add(this.panel4);
+            this.panel9.Controls.Add(this.label5);
+            this.panel9.Controls.Add(this.label8);
+            this.panel9.Controls.Add(this.label7);
+            this.panel9.Controls.Add(this.dateTimePicker1);
+            this.panel9.Controls.Add(this.radioButton1);
+            this.panel9.Controls.Add(this.radioButton2);
+            this.panel9.Location = new System.Drawing.Point(430, 69);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(476, 467);
+            this.panel9.TabIndex = 85;
+            // 
             // employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.panel9);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.save);
-            this.Controls.Add(this.email);
-            this.Controls.Add(this.name);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.panel10);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.address);
-            this.Controls.Add(this.phone);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel8);
             this.Controls.Add(this.guna2Button2);
             this.Name = "employee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "employee";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -397,5 +409,6 @@
         private System.Windows.Forms.Panel panel8;
         private Guna.UI2.WinForms.Guna2Button save;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel9;
     }
 }
