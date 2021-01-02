@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Hotel_management_system
 {
-    public partial class login : Form
+    public partial class Login : Form
     {
-        public login()
+        public Login()
         {
             InitializeComponent();
         }
@@ -47,7 +47,7 @@ namespace Hotel_management_system
 
         private void button2_Click(object sender, EventArgs e)
         {
-            signup su = new signup();
+            Signup su = new Signup();
             su.Show();
             this.Hide();
         }

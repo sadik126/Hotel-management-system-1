@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Hotel_management_system
 {
-    class dataaccess
+    class Dataaccess
     {
         SqlConnection connection;
         SqlCommand command;
-        public dataaccess()
+        public Dataaccess()
         {
             this.connection = new SqlConnection(ConfigurationManager.ConnectionStrings["hotel7star"].ConnectionString);
             this.connection.Open();

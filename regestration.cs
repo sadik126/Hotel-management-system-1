@@ -14,13 +14,13 @@ using System.Windows.Forms;
 
 namespace Hotel_management_system
 {
-    public partial class regestration : Form
+    public partial class Regestration : Form
     {
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hotel7star"].ConnectionString);
         SqlCommand cmd;
         SqlDataAdapter adpt;
         DataTable dt;
-        public regestration()
+        public Regestration()
         {
             InitializeComponent();
         }

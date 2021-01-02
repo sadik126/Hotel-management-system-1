@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace Hotel_management_system
 {
-    public partial class details : Form
+    public partial class Details : Form
     {
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hotel7star"].ConnectionString);
         SqlDataAdapter adpt;
@@ -21,7 +21,7 @@ namespace Hotel_management_system
         DataTable dt;
         private int indexRow;
 
-        public details()
+        public Details()
         {
             InitializeComponent();
             this.showdata();
