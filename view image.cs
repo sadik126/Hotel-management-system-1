@@ -20,6 +20,11 @@ namespace Hotel_management_system
             pictureBox3.Visible = false;
             pictureBox4.Visible = false;
             pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = false;
+            pictureBox9.Visible = false;
+            pictureBox10.Visible = false;
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -59,6 +64,48 @@ namespace Hotel_management_system
                 pictureBox1.Visible = true;
                 pictureBox4.Visible = false;
             }
+            else if(pictureBox5.Visible==true)
+            {
+                pictureBox6.Visible = true;
+                pictureBox5.Visible = false;
+                pictureBox7.Visible = false;
+
+            }
+            else if(pictureBox6.Visible==true)
+            {
+                pictureBox7.Visible = true;
+                pictureBox6.Visible = false;
+                pictureBox5.Visible = false;
+            }
+            else if (pictureBox7.Visible==true)
+            {
+                pictureBox7.Visible = false;
+                pictureBox6.Visible = false;
+                pictureBox5.Visible = true;
+            }
+            else if(pictureBox8.Visible==true)
+            {
+                pictureBox9.Visible = true;
+                pictureBox8.Visible = false;
+                pictureBox10.Visible = false;
+
+            }
+            else if(pictureBox9.Visible==true)
+            {
+                pictureBox9.Visible = false;
+                pictureBox7.Visible = false;
+                pictureBox5.Visible = false;
+                pictureBox6.Visible = false;
+                pictureBox8.Visible = false;
+                pictureBox10.Visible = true;
+            }
+            else if(pictureBox10.Visible==true)
+            {
+                pictureBox7.Visible = false;
+                pictureBox8.Visible = true;
+                pictureBox9.Visible = false;
+                pictureBox10.Visible = false;
+            }
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -66,8 +113,10 @@ namespace Hotel_management_system
             
            
             
-                pictureBox2.Visible = true;
+            pictureBox2.Visible = true;
             pictureBox5.Visible = false;
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = false;
             
                
         }
@@ -76,6 +125,18 @@ namespace Hotel_management_system
         {
             pictureBox5.Visible = true;
             pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
+           
+            pictureBox1.Visible = false;
+            pictureBox4.Visible = false;
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = false;
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            pictureBox8.Visible = true;
+            pictureBox5.Visible = false;
         }
     }
 }

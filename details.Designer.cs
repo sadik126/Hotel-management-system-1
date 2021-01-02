@@ -1,6 +1,6 @@
 ﻿namespace Hotel_management_system
 {
-    partial class details
+    partial class Details
     {
         /// <summary>
         /// Required designer variable.

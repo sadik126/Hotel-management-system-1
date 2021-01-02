@@ -31,21 +31,21 @@ namespace Hotel_management_system
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            login lg = new login();
+            Login lg = new Login();
             lg.Show();
             this.Hide();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            regestration rg = new regestration();
+            Regestration rg = new Regestration();
             rg.Show();
             this.Hide();
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            details det = new details();
+            Details det = new Details();
             det.Show();
             this.Hide();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Hotel_management_system
 {
-    partial class signup
+    partial class Signup
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(signup));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Signup));
             this.label6 = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.TextBox();
             this.panel9 = new System.Windows.Forms.Panel();

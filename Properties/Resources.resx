@@ -118,19 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="small-bedroom-ideas-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\small-bedroom-ideas-03.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1-single-bedroom-forlis-city-centre-2nd-semester-aa7805c33233fe3e4686dc2e2d9c3728" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1-single-bedroom-forlis-city-centre-2nd-semester-aa7805c33233fe3e4686dc2e2d9c3728.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5.-1-standard-double-MAIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.-1-standard-double-MAIN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="453f1a6859e13ae5608e24de26a796b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\453f1a6859e13ae5608e24de26a796b5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triple-bedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triple-bedroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fa2d4063750ee307162887ae7c5d0ebc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fa2d4063750ee307162887ae7c5d0ebc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="85253435-white-bedroom-interior-with-a-wooden-floor-a-single-bed-and-a-computer-table-with-a-bookcase-near-it" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\85253435-white-bedroom-interior-with-a-wooden-floor-a-single-bed-and-a-computer-table-with-a-bookcase-near-it.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1-single-bedroom-forlis-city-centre-2nd-semester-aa7805c33233fe3e4686dc2e2d9c3728" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1-single-bedroom-forlis-city-centre-2nd-semester-aa7805c33233fe3e4686dc2e2d9c3728.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bedroom-triple-design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bedroom-triple-design.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="453f1a6859e13ae5608e24de26a796b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\453f1a6859e13ae5608e24de26a796b5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="e54cf14014cdd87b55db24d13336bdfc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e54cf14014cdd87b55db24d13336bdfc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="5.-1-standard-double-MAIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5.-1-standard-double-MAIN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="the-lit-bangkok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\the-lit-bangkok.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Club-Triple-bedroom-1616x1048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Club-Triple-bedroom-1616x1048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

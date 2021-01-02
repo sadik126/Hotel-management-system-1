@@ -49,6 +49,8 @@ namespace Hotel_management_system
             else
             {
                 MessageBox.Show("deleted");
+                textBox1.Text = "";
+                this.showdata();
                 
 
             }

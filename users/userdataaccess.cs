@@ -9,10 +9,10 @@ namespace Hotel_management_system
 {
     class userdataaccess
     {
-        dataaccess dataAccess;
+        Dataaccess dataAccess;
         public userdataaccess()
         {
-            this.dataAccess = new dataaccess();
+            this.dataAccess = new Dataaccess();
         }
         public bool LoginValidation(string username, string password)
         {
