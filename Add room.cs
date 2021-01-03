@@ -45,6 +45,14 @@ namespace Hotel_management_system
             {
                 MessageBox.Show("combo box Empty");
             }
+            else if (dateTimePicker1.Text=="")
+            {
+                MessageBox.Show("empty check-in");
+            }
+            else if (dateTimePicker2.Text == "")
+            {
+                MessageBox.Show("empty check-out");
+            }
 
 
             else
@@ -59,7 +67,7 @@ namespace Hotel_management_system
 
 
                 SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hotel7star"].ConnectionString);
-                SqlDataAdapter da = new SqlDataAdapter("select roomNo from rooms where roomNo='" + roomno.Text + "' ", con);
+                SqlDataAdapter da = new SqlDataAdapter("select roomNo from rooms1 where roomNo='" + roomno.Text + "' ", con);
 
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -70,7 +78,7 @@ namespace Hotel_management_system
                 else
                 {
                     con.Open();
-                    string sql = "INSERT INTO rooms (roomNo,roomType,bed,price) VALUES('" + roomno.Text + "','" + comboBox1.Text + "','" + comboBox2.Text + "','" + price.Text + "')";
+                    string sql = "INSERT INTO rooms1 (roomNo,roomType,bed,price,checkin,checkout) VALUES('" + roomno.Text + "','" + comboBox1.Text + "','" + comboBox2.Text + "','" + price.Text + "','"+dateTimePicker1.Text+"','"+dateTimePicker2.Text+"')";
                     SqlCommand command = new SqlCommand(sql, con);
                     int result = command.ExecuteNonQuery();
                     if (result > 0)
@@ -91,7 +99,7 @@ namespace Hotel_management_system
         }
         public void showdata()
         {
-            adpt = new SqlDataAdapter("select * from rooms", con);
+            adpt = new SqlDataAdapter("select * from rooms1", con);
             dt = new DataTable();
             adpt.Fill(dt);
             dataGridView1.DataSource = dt;
@@ -107,6 +115,8 @@ namespace Hotel_management_system
             comboBox1.Text = "";
             comboBox2.Text = "";
             textBox1.Text = "";
+            
+
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -118,7 +128,7 @@ namespace Hotel_management_system
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            adpt = new SqlDataAdapter("delete from rooms where roomNo='" + textBox1.Text + "'", con);
+            adpt = new SqlDataAdapter("delete from rooms1 where roomNo='" + textBox1.Text + "'", con);
 
             dt = new DataTable();
             adpt.Fill(dt);
@@ -151,7 +161,7 @@ namespace Hotel_management_system
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
-            indexRow = e.RowIndex; // get the selected Row Index
+            indexRow = e.RowIndex; 
             DataGridViewRow row = dataGridView1.Rows[indexRow];
 
             roomno.Text = row.Cells[1].Value.ToString();
@@ -159,6 +169,8 @@ namespace Hotel_management_system
             comboBox2.Text = row.Cells[3].Value.ToString();
             price.Text = row.Cells[4].Value.ToString();
             textBox2.Text = row.Cells[0].Value.ToString();
+            dateTimePicker1.Text = row.Cells[5].Value.ToString();
+            dateTimePicker2.Text = row.Cells[6].Value.ToString();
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -170,9 +182,11 @@ namespace Hotel_management_system
             newDataRow.Cells[3].Value = comboBox2.Text;
             newDataRow.Cells[4].Value = price.Text;
             newDataRow.Cells[0].Value = textBox2.Text;
+            newDataRow.Cells[5].Value = dateTimePicker1.Text;
+            newDataRow.Cells[6].Value = dateTimePicker2.Text;
 
 
-            adpt = new SqlDataAdapter("update  rooms set roomNo='" + roomno.Text + "',roomType='"+comboBox1.Text+"',bed='"+comboBox2.Text+"',price='"+price.Text+"' where roomid='" + textBox2.Text + "'", con);
+            adpt = new SqlDataAdapter("update  rooms1 set roomNo='" + roomno.Text + "',roomType='"+comboBox1.Text+"',bed='"+comboBox2.Text+"',price='"+price.Text+"' where roomid='" + textBox2.Text + "'", con);
 
 
             dt = new DataTable();
