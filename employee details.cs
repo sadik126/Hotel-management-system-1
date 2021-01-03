@@ -118,5 +118,10 @@ namespace Hotel_management_system
                 dataGridView1.DataSource = dv.ToTable();
             }
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

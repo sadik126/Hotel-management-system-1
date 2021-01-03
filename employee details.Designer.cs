@@ -492,6 +492,7 @@
             this.guna2Button5.Size = new System.Drawing.Size(165, 45);
             this.guna2Button5.TabIndex = 119;
             this.guna2Button5.Text = "Search";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // pictureBox2
             // 

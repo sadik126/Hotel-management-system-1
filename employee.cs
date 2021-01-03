@@ -33,44 +33,77 @@ namespace Hotel_management_system
 
         private void save_Click(object sender, EventArgs e)
         {
+            if (textBox2.Text == "")
+            {
+                MessageBox.Show("Empty text");
+            }
+            else if (textBox1.Text == "")
+            {
+                MessageBox.Show("Empty text");
+            }
+            else if (phone.Text == "")
+            {
+                MessageBox.Show("Empty text");
+            }
+            else if (address.Text == "")
+            {
+                MessageBox.Show("Empty text");
+            }
+            else if (comboBox1.Text == "")
+            {
+                MessageBox.Show("Empty combobox");
+            }
+            else if (radioButton1.Checked == false && radioButton2.Checked == false)
+            {
+                MessageBox.Show("Empty gender");
+            }
+            else if (dateTimePicker1.Text == "")
+            {
+                MessageBox.Show("Empty date");
+            }
+           else
+            { 
+
+
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hotel7star"].ConnectionString);
             SqlDataAdapter da = new SqlDataAdapter("select phone from employees where phone='" + phone.Text + "' ", con);
             DataTable dt = new DataTable();
             da.Fill(dt);
-            if (dt.Rows.Count >= 1)
-            {
-                MessageBox.Show("there is an error.please re-check your data");
-            }
-            else
-            {
-                con.Open();
-                Regex r = new Regex(@"^[0-9]{11}$");
-                
-                string gen = null;
-                if (radioButton1.Checked)
+                if (dt.Rows.Count >= 1)
                 {
-                    gen = radioButton1.Text;
+                    MessageBox.Show("there is an error.please re-check your data");
                 }
                 else
                 {
-                    gen = radioButton2.Text;
-                }
-                string sql = "INSERT INTO employees (name,email,phone,status,address,gender,birthdate) VALUES('" + textBox2.Text + "','" + textBox1.Text + "','" + phone.Text + "','" + comboBox1.Text + "','" + address.Text + "','" + gen + "','" + dateTimePicker1.Text + "')";
-                SqlCommand command = new SqlCommand(sql, con);
-                int result = command.ExecuteNonQuery();
+                    con.Open();
+                    Regex r = new Regex(@"^[0-9]{11}$");
+
+                    string gen = null;
+                    if (radioButton1.Checked)
+                    {
+                        gen = radioButton1.Text;
+                    }
+                    else
+                    {
+                        gen = radioButton2.Text;
+                    }
+                    string sql = "INSERT INTO employees (name,email,phone,status,address,gender,birthdate) VALUES('" + textBox2.Text + "','" + textBox1.Text + "','" + phone.Text + "','" + comboBox1.Text + "','" + address.Text + "','" + gen + "','" + dateTimePicker1.Text + "')";
+                    SqlCommand command = new SqlCommand(sql, con);
+                    int result = command.ExecuteNonQuery();
 
 
 
 
-                if (result == 1 && r.IsMatch(phone.Text))
-                {
-                    MessageBox.Show("Employee added successfully.");
-                    this.cleardata();
-                    con.Close();
-                }
-                else
-                {
-                    MessageBox.Show("there is an error.please fill up the valid data");
+                    if (result == 1 && r.IsMatch(phone.Text))
+                    {
+                        MessageBox.Show("Employee added successfully.");
+                        this.cleardata();
+                        con.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("there is an error.please fill up the valid data");
+                    }
                 }
 
             }
