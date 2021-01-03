@@ -43,7 +43,7 @@ namespace Hotel_management_system
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            adpt = new SqlDataAdapter("delete from customers where Id='" + textBox2.Text + "'", con);
+            adpt = new SqlDataAdapter("delete from customers where name='" + textBox2.Text + "'", con);
 
             dt = new DataTable();
             adpt.Fill(dt);
