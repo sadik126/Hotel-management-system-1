@@ -51,7 +51,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(80, 81);
+            this.label6.Location = new System.Drawing.Point(208, 125);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 18);
             this.label6.TabIndex = 46;
@@ -61,7 +61,7 @@
             // 
             this.username.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.username.Location = new System.Drawing.Point(182, 64);
+            this.username.Location = new System.Drawing.Point(310, 108);
             this.username.Multiline = true;
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(234, 32);
@@ -70,14 +70,14 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Teal;
-            this.panel9.Location = new System.Drawing.Point(182, 98);
+            this.panel9.Location = new System.Drawing.Point(310, 142);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(236, 1);
             this.panel9.TabIndex = 44;
             // 
             // panel10
             // 
-            this.panel10.Location = new System.Drawing.Point(142, 91);
+            this.panel10.Location = new System.Drawing.Point(270, 135);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(200, 1);
             this.panel10.TabIndex = 43;
@@ -86,7 +86,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(80, 156);
+            this.label1.Location = new System.Drawing.Point(208, 200);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 18);
             this.label1.TabIndex = 50;
@@ -96,7 +96,7 @@
             // 
             this.password.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password.Location = new System.Drawing.Point(182, 139);
+            this.password.Location = new System.Drawing.Point(310, 183);
             this.password.Multiline = true;
             this.password.Name = "password";
             this.password.PasswordChar = '*';
@@ -106,14 +106,14 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Teal;
-            this.panel1.Location = new System.Drawing.Point(182, 173);
+            this.panel1.Location = new System.Drawing.Point(310, 217);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(236, 1);
             this.panel1.TabIndex = 48;
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(142, 166);
+            this.panel2.Location = new System.Drawing.Point(270, 210);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 1);
             this.panel2.TabIndex = 47;
@@ -122,7 +122,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(23, 237);
+            this.label2.Location = new System.Drawing.Point(151, 281);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(153, 18);
             this.label2.TabIndex = 54;
@@ -132,7 +132,7 @@
             // 
             this.confirmpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.confirmpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.confirmpassword.Location = new System.Drawing.Point(182, 220);
+            this.confirmpassword.Location = new System.Drawing.Point(310, 264);
             this.confirmpassword.Multiline = true;
             this.confirmpassword.Name = "confirmpassword";
             this.confirmpassword.PasswordChar = '*';
@@ -142,14 +142,14 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Teal;
-            this.panel3.Location = new System.Drawing.Point(182, 254);
+            this.panel3.Location = new System.Drawing.Point(310, 298);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(236, 1);
             this.panel3.TabIndex = 52;
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(142, 247);
+            this.panel4.Location = new System.Drawing.Point(270, 291);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 1);
             this.panel4.TabIndex = 51;
@@ -162,10 +162,10 @@
             this.save.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.ForeColor = System.Drawing.Color.White;
             this.save.HoverState.Parent = this.save;
-            this.save.Location = new System.Drawing.Point(61, 323);
+            this.save.Location = new System.Drawing.Point(234, 367);
             this.save.Name = "save";
             this.save.ShadowDecoration.Parent = this.save;
-            this.save.Size = new System.Drawing.Size(180, 45);
+            this.save.Size = new System.Drawing.Size(147, 45);
             this.save.TabIndex = 55;
             this.save.Text = "Sign up";
             this.save.Click += new System.EventHandler(this.save_Click);
@@ -179,10 +179,10 @@
             this.guna2Button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(336, 323);
+            this.guna2Button1.Location = new System.Drawing.Point(409, 367);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.Size = new System.Drawing.Size(135, 45);
             this.guna2Button1.TabIndex = 56;
             this.guna2Button1.Text = "Login";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);

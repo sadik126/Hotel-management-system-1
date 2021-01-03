@@ -37,3 +37,7 @@ C:\Users\sadik\Desktop\Hotel management system\obj\Debug\Hotel management system
 C:\Users\sadik\Desktop\Hotel management system\obj\Debug\Hotel management system.csproj.CopyComplete
 C:\Users\sadik\Desktop\Hotel management system\obj\Debug\Hotel management system.exe
 C:\Users\sadik\Desktop\Hotel management system\obj\Debug\Hotel management system.pdb
+C:\Users\sadik\Desktop\Hotel management system\bin\Debug\Hotel management system.exe.manifest
+C:\Users\sadik\Desktop\Hotel management system\bin\Debug\Hotel management system.application
+C:\Users\sadik\Desktop\Hotel management system\obj\Debug\Hotel management system.exe.manifest
+C:\Users\sadik\Desktop\Hotel management system\obj\Debug\Hotel management system.application
