@@ -72,7 +72,7 @@ namespace Hotel_management_system
             da.Fill(dt);
                 if (dt.Rows.Count >= 1)
                 {
-                    MessageBox.Show("there is an error.please re-check your data");
+                    MessageBox.Show("This phone number already exist there"); 
                 }
                 else
                 {

@@ -35,7 +35,8 @@ namespace Hotel_management_system
         private void save_Click(object sender, EventArgs e)
 
         {
-            if(textBox2.Text=="")
+            Regex r = new Regex(@"^[0-9]{11}$");
+            if (textBox2.Text=="")
             {
                 MessageBox.Show("Empty text");
             }
@@ -43,9 +44,9 @@ namespace Hotel_management_system
             {
                 MessageBox.Show("Empty text");
             }
-            else if(phone.Text=="")
+            else if(phone.Text=="" && r.IsMatch(phone.Text))
             {
-                MessageBox.Show("Empty text");
+                MessageBox.Show("Invalid phone number");
             }
             else if(address.Text=="")
             {
@@ -81,7 +82,7 @@ namespace Hotel_management_system
                 else
                 {
                     con.Open();
-                    Regex r = new Regex(@"^[0-9]{11}$");
+                    
                     string gen = null;
                     if (radioButton1.Checked)
                     {
@@ -98,7 +99,7 @@ namespace Hotel_management_system
 
 
 
-                    if (result == 1 && r.IsMatch(phone.Text))
+                    if (result == 1 )
 
                     {
 
